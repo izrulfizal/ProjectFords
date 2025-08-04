@@ -7,7 +7,7 @@ def main():
 
     
     # speak("Hi, Welcome to Fords AI Assistant. Can I help you with something?", voice_id="JBFqnCBsd6RMkjVDRZzb", model_id="eleven_multilingual_v2")
-    speak_mac("Hi, Welcome to Fords AI Assistant. Can I help you with something?")
+    speak_mac("Hi, I'm Quanta, your AI Assistant. Can I help you with something?")
 
     
     user_input = recognize_speech()
@@ -15,7 +15,7 @@ def main():
     if user_input:
         print(f"User said: {user_input}")
         response = ask_brain(user_input)
-        print(f"Brain response: {response}")
+        print(f"Fords response: {response}")
         # speak(response, voice_id="JBFqnCBsd6RMkjVDRZzb", model_id="eleven_multilingual_v2")
         speak_mac(response)
     else:

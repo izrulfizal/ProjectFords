@@ -1,2 +1,11 @@
 .env
-/Audio
+.gitignore
+
+Audio/
+**/Audio/
+
+Data/
+**/Data/
+
+__pycache__/
+**/__pycache__/
